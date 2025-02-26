@@ -22,3 +22,6 @@ def convert_all_ttf_in_directory(directory):
 # just change the path to the path you desire. 
 directory = 'C:\\Users\\Public\Documents\\ttf'
 convert_all_ttf_in_directory(directory)
+
+# Keep the window open # I'll probably comment this line out after I get the script working
+input("Press Enter to exit...")
