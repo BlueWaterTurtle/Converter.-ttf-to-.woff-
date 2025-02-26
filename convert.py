@@ -17,6 +17,7 @@ def convert_all_ttf_in_directory(directory):
                 print(f"Converted {ttf_path} to {woff_path}")
             except Exception as e:
                 print(f"Failed to convert{ttf_path}: {e}")
+        else print("nothing converted")
 
 # Example usage
 # just change the path to the path you desire. 
