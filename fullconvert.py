@@ -2,6 +2,7 @@
 #this one converts .ttf files to .woff, .woff2, and otf. 
 import os
 from fontTools.ttLib import TTFont
+import brotli
 
 def convert_ttf_to_woff(ttf_path, woff_path):
     font = TTFont(ttf_path)
