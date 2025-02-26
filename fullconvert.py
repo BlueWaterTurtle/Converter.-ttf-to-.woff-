@@ -34,7 +34,7 @@ def convert_all_ttf_in_directory(directory):
             except Exception as e:
                 print(f"Failed to convert {ttf_path}: {e}")
 
-# Example usage
+#Calling the above program
 directory = r'C:\Users\Public\Documents\ttf'
 convert_all_ttf_in_directory(directory)
 
